@@ -18,7 +18,7 @@ This node.js application is used to generate a professional README file from pro
 
 ### Usage ###
 
-To begin the question prompts, in the driectory containing this project, from the command line run node index.js. Answer all of the following questions, when complete the README.md file will be generated in the current directory
+To begin the question prompts, in the directory containing this project, from the command line run node index.js. Answer all of the following questions, when complete the `README.md` file will be generated in the current directory
 
 ### Demo ###
 
