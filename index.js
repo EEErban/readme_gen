@@ -51,6 +51,12 @@ const questions = [
         message: "What tests you are running for your project?: ",
         name: "tests"
     }
+
+    {
+        type: "input",
+        message: "What tests you are running for your project?: ",
+        name: "tests"
+    }
 ];
 
 // TODO: Create a function to write README file
