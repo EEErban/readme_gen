@@ -8,9 +8,14 @@
 
   - [Description](#description)
   - [Installation](#installation)
-  
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
   ## Installation
-  None
+  None required
   
   ## Usage
   N/A
@@ -23,11 +28,11 @@
   N/A
   
   ## Tests
-  None required
+  None
   
   ## Questions
   
   - View my [GitHub](https://github.com/EEErban)
-  - Email me at info@erban-world.com
+  - Email me at info@EEErban.com
   
 
