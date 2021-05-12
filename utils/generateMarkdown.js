@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 const renderLicenseBadge = (license) => {
   if (license === "MIT") {
@@ -23,7 +23,7 @@ const renderLicenseBadge = (license) => {
 
 
 
-// TODO: Create a function to generate markdown for README
+// function to generate markdown for README
 const generateMarkdown = (data) => {
   return ` # ${data.title}
   
@@ -34,7 +34,6 @@ const generateMarkdown = (data) => {
   ## Table of Contents
   
     - [Description](#description)
-    - [Table of Contents](#table-of-contents)
     - [Installation](#installation)
     - [Usage](#usage)
     - [License](#license)
