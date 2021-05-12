@@ -30,16 +30,7 @@ const questions = [
         type: "list",
         message: "What licenses are used for the project?: ",
         name: "licenses",
-        choices: [
-            "MIT License",
-            "Code Project Open License (CPOL)",
-            "Common Development and Distribution License (CDDL)",
-            "Microsoft Public License (Ms-PL)",
-            "Mozilla Public License 1.1 (MPL 1.1)",
-            "Common Public License Version 1.0 (CPL)",
-            "Eclipse Public License 1.0",
-            "Apache License, Version 2.0"
-        ]
+        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
     },
     {
         type: "input",
@@ -50,20 +41,33 @@ const questions = [
         type: "input",
         message: "What tests you are running for your project?: ",
         name: "tests"
-    }
-
+    }, 
     {
         type: "input",
-        message: "What tests you are running for your project?: ",
-        name: "tests"
+        message: "What is your Github username?: ",
+        name: "userName"
+
+    },
+    {
+        type: "input",
+        message: "What is your email?: ",
+        name: "email"
     }
+
+    
 ];
 
 // TODO: Create a function to write README file
-const writeToFile = (fileName, data) => {};
+const writeToFile = (fileName, data) => {
+    return fs.writeFileSync (fileName, data)
+};
 
 // TODO: Create a function to initialize app
-const init = () => {};
+const init = async() => {
+    const answers = await inquirer.prompt (questions)
+    const markdown = generateMarkdown(answers)
+    writeToFile ("MyREADME_File.md", markdown)
+};
 
 // Function call to initialize app
 init();
