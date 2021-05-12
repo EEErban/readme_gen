@@ -1,11 +1,9 @@
-// TODO: Include packages needed for this application
+// packages needed for this application
 const fs = require("fs");
-const util = require("util");
 const inquirer = require("inquirer");
-const generateReadme = require("./utils/generateMarkdown")
-const writeFileAsync = util.promisify(fs.writeFile)
+const generateMarkdown = require("./utils/generateMarkdown")
 
-// TODO: Create an array of questions for user input
+// array of questions for user input
 const questions = [
     {
         type: "input",
@@ -14,7 +12,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Enter a short project description: ",
+        message: "Enter your project description: ",
         name: "description"
     },
     {
