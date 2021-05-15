@@ -22,5 +22,6 @@ To begin the question prompts, in the directory containing this project, from th
 
 ### Demo ###
 
-Click here to watch >>> [Demo](https://vimeo.com/549578637)
+Click here to watch >>> [Demo](https://vimeo.com/549578637) 
+> watch at 2x playback speed
 
