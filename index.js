@@ -57,12 +57,12 @@ const questions = [
     
 ];
 
-// TODO: Create a function to write README file
+// function to write README file
 const writeToFile = (fileName, data) => {
     return fs.writeFileSync (fileName, data)
 };
 
-// TODO: Create a function to initialize app
+// function to initialize app
 const init = async() => {
     const answers = await inquirer.prompt (questions)
     const markdown = generateMarkdown(answers)
